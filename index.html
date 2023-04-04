@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rishton Academy Primary School</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!--helps scale website to fir device-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--stylesheet to fix the navbar-->
+        <link rel="stylesheet" href="rishton.css"> <!--links to the css style page-->
+
+    </head>
+    <body>
+        <h1>Welcome to Rishton Academy Primary School</h1><!--Header to reveal what the website is for-->
+        <div class="navbar"><!--navigation bar for navigating through the website and all it's functions... adapted from W3schools nav bar-->
+            <a href="index.html">Home</a><!--link takes you to the home page-->
+             <div class="dropdown">
+              <button class="dropbtn">Pupils<!--has dropdown for viewing, adding, deleting, and updating student info-->
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="ViewPupil.php">View</a>
+                <a href="AddPupil.php">Add</a>
+                <a href="UpdatePupil.php">Update</a>
+                <a href="DeletePupil.php">Delete</a>
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Teachers<!--has dropdown for viewing, adding, deleting, and updating teacher info-->
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="ViewTeacher.php">View</a>
+                    <a href="AddTeacher.php">Add</a>
+                    <a href="UpdateTeacher.php">Update</a>
+                    <a href="DeleteTeacher.php">Delete</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Classes <!--has dropdown for viewing, adding, deleting, and updating class info-->
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="ViewClass.php">View</a>
+                    <a href="AddClass.php">Add</a>
+                    <a href="UpdateClass.php">Update</a>
+                    <a href="DeleteClass.php">Delete</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Parents <!--has dropdown for viewing, adding, deleting, and updating parent info-->
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="ViewParent.php">View</a>
+                    <a href="AddParent.php">Add</a>
+                    <a href="UpdateParent.php">Update</a>
+                    <a href="DeleteParent.php">Delete</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Pupils/Parents <!--has dropdown for viewing, adding, deleting, and updating parent/pupil info-->
+                 <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                   <a href="ViewPupilParent.php">View</a>
+                   <a href="AddPupilParent.php">Add</a>
+                   <a href="UpdatePupilParent.php">Update</a>
+                   <a href="DeletePupilParent.php">Delete</a>
+                </div>
+            </div> 
+          </div>
+          <p>Please hover over the navigation bar above the desired section and select one of the drop down options you wish to use.</p>
+    </body>
+</html>
